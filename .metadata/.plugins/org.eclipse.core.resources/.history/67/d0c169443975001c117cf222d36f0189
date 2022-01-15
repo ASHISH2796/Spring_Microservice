@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.ashish.microservice.limitsservice.bean;
+
+/**
+ * @author Ashish Gupta
+ *
+ */
+public class Limits {
+
+	private int minimum;
+	private int maximum;
+	
+}

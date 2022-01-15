@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.ashish.microservice.limitsservice.bean;
+
+/**
+ * @author Ashish Gupta
+ *
+ */
+public class Limits {
+
+}

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.ashish.microservice.limitsservice.configuration;
+
+/**
+ * @author Ashish Gupta
+ *
+ */
+public class LimitServiceConfig {
+
+}
