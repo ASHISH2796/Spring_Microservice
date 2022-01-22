@@ -1,7 +1,7 @@
 !/.metadata/
 !/.recommenders/
 !/Servers
-
+!.metadata/
 target/
 !currency-exchange-service/.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -14,6 +14,12 @@ target/
 !**/src/test/**/target/
 
 target/
-!spring-cloud-config-server.mvn/wrapper/maven-wrapper.jar
+!spring-cloud-config-server/.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+
+target/
+!currency-conversion-service/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
