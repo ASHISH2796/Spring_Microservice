@@ -1,7 +1,7 @@
-!/.metadata/
+/.metadata/*
 !/.recommenders/
 !/Servers
-!.metadata/
+.metadata/*
 target/
 !currency-exchange-service/.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
