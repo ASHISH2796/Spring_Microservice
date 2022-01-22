@@ -34,7 +34,7 @@ public class CurrencyExchangeController {
 	public CurrencyExchange retriveExchangeValue(@PathVariable String from, @PathVariable String to ) {
 		
 		Optional<CurrencyExchange> currencyExchange = currencyExchangeService.findByFromAndTo(from, to);
-		if(currencyExchange.isEmpty()) {
+		if(!currencyExchange.isPresent()) {
 			throw new RuntimeException("Unable to get data for "+from+ " to "+ to);
 		}
 		currencyExchange.get().setEnvironment(env.getProperty("local.server.port"));

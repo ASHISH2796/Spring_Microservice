@@ -23,3 +23,5 @@ target/
 !currency-conversion-service/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+/.metadata/
+/.recommenders/
