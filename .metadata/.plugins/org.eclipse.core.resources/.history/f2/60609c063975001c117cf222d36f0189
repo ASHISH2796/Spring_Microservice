@@ -1,9 +1,0 @@
-package com.ashish.microservice.limitsservice.controller;
-
-/**
- * @author Ashish Gupta
- *
- */
-public class LimitsController {
-
-}
