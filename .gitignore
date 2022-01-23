@@ -30,3 +30,8 @@ target/
 !naming-server/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+
+target/
+!api-gateway/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
