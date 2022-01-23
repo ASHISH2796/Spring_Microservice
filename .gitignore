@@ -25,3 +25,8 @@ target/
 !**/src/test/**/target/
 /.metadata/
 /.recommenders/
+
+target/
+!naming-server/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
