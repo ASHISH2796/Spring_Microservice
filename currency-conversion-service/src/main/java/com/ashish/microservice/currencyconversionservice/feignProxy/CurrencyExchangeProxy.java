@@ -14,7 +14,8 @@ import com.ashish.microservice.currencyconversionservice.bean.CurrencyConversion
  * @author Ashish Gupta
  *
  */
-@FeignClient(name="currency-exchange-service",url="localhost:8000")
+//@FeignClient(name="currency-exchange-service",url="localhost:8000")
+@FeignClient(name="currency-exchange-service")
 public interface CurrencyExchangeProxy {
 
 	@GetMapping("/currency-exchange/from/{from}/to/{to}")
